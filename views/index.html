@@ -4,10 +4,10 @@
 <head>
   <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="apple-touch-startup-image" href="images/launch.png">
+  <link rel="apple-touch-startup-image" href="images/ido.png">
   <meta name="apple-mobile-web-app-title" content="Nightscout">
 
-  <title>Nightscout</title>
+  <title>IO-DIABETES</title>
 
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png">
@@ -35,6 +35,10 @@
   <link rel="preload" href="css/dropdown.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
   <style media="screen" type="text/css">
+        p {
+        color: white; font-family: Arial, Helvetica, sans-serif; font-weight: bolder;font-size: 25px;
+      }
+
     #centerMessagePanel {
       position: fixed;
       top: 0;
@@ -108,8 +112,9 @@
 <body>
   <div id="centerMessagePanel">
     <div id="loadingMessage">
-      <p><img src="images/launch.png"></p>
-      <p id="loadingMessageText">Loading the client</p>
+      <p><img src="images/ido.png"style=" border-radius: 50%;width: 120px;"></p>
+      <p>io-diabetes</p>
+      <p id="loadingMessageText" style="color:white">Loading the client</p>
       <div class="spinner">
         <div class="bounce1"></div>
         <div class="bounce2"></div>
